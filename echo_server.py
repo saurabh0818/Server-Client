@@ -4,7 +4,7 @@ import socket
 
 
 def Soc_Server():
-    HOST = '192.168.0.103'
+    HOST = 'Enter Your IP'
     PORT = 65432
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.bind((HOST, PORT))
